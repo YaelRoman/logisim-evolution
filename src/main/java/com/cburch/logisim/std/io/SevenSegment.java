@@ -65,6 +65,7 @@ public class SevenSegment extends InstanceFactory implements DynamicElementProvi
       g.setColor(Color.BLACK);
     }
     painter.drawBounds();
+
     g.setColor(Color.DARK_GRAY);
     for (int i = 0; i <= 7; i++) {
       if (painter.getShowState()) {

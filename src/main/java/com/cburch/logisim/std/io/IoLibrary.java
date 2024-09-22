@@ -52,6 +52,7 @@ public class IoLibrary extends Library {
     new FactoryDescription(LedBar.class, S.getter("ioLedBarComponent"), "ledlightbar.gif"),
     new FactoryDescription(RgbLed.class, S.getter("RGBledComponent"), "rgbled.gif"),
     new FactoryDescription(SevenSegment.class, S.getter("sevenSegmentComponent"), "7seg.gif"),
+    new FactoryDescription(FourteenSegment.class, S.getter("fourteenSegmentComponent"), "7seg.gif"),
     new FactoryDescription(HexDigit.class, S.getter("hexDigitComponent"), "hexdig.gif"),
     new FactoryDescription(DotMatrix.class, S.getter("dotMatrixComponent"), "dotmat.gif"),
     new FactoryDescription(Tty.class, S.getter("ttyComponent"), "tty.gif"),
